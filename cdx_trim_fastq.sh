@@ -2,7 +2,7 @@
 
 #SBATCH -t 5-00:00:00
 #SBATCH --mem=60G
-#SBATCH -J bwa_alignment
+#SBATCH -J fastq_trimming
 #SBATCH -p himem
 #SBATCH -c 1
 #SBATCH -N 1
@@ -11,7 +11,7 @@
 
 
 # Load modules or set paths (if required)
-module load trimgalore
+module load trim_galore
 
 
 # Directory containing FASTQ files
