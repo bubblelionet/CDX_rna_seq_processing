@@ -13,6 +13,8 @@
 # Load modules or set paths (if required)
 module load bwa
 module load samtools
+module load igenome-human/hg19
+
 
 # Define path to the reference genome
 # REF_GENOME="/path/to/hg19.fasta"
