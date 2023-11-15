@@ -4,7 +4,7 @@
 #SBATCH --mem=60G
 #SBATCH -J bwa_alignment
 #SBATCH -p himem
-#SBATCH -c = 1
+#SBATCH -c 1
 #SBATCH -N 1
 #SBATCH -o bwa_alignment_output_%j.txt
 #SBATCH -e bwa_alignment_error_%j.txt
