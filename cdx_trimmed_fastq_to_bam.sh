@@ -31,7 +31,7 @@ OUTPUT_DIR="/cluster/projects/lokgroup/rotations_students/victoria_gao/cdx_rna_s
 # bwa index $REF_GENOME
 
 # Loop through each FASTQ file in the directory
-for FASTQ_FILE in "$FASTQ_DIR"/*.fastq.gz; do
+for FASTQ_FILE in "$FASTQ_DIR"/*.fq.gz; do
     # Extract base name of file for naming output
     BASE_NAME=$(basename "$FASTQ_FILE" .fastq.gz)
 
