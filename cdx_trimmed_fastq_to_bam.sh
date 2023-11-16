@@ -21,7 +21,7 @@ module load igenome-human/hg19
 # REF_GENOME="/path/to/hg19.fasta"
 
 # Directory containing FASTQ files
-FASTQ_DIR="/cluster/projects/lokgroup/rotations_students/cdx_rna_seq"
+FASTQ_DIR="/cluster/projects/lokgroup/rotations_students/victoria_gao/CDX_rna_fastq_trimmed"
 
 # Directory for output
 OUTPUT_DIR="/cluster/projects/lokgroup/rotations_students/victoria_gao/cdx_rna_seq_results"
