@@ -33,7 +33,7 @@ OUTPUT_DIR="/cluster/projects/lokgroup/rotations_students/victoria_gao/cdx_rna_s
 # Loop through each FASTQ file in the directory
 for FASTQ_FILE in "$FASTQ_DIR"/*.fq.gz; do
     # Extract base name of file for naming output
-    BASE_NAME=$(basename "$FASTQ_FILE" .fastq.gz)
+    BASE_NAME=$(basename "$FASTQ_FILE" )
 
     # Define output file names
     OUTPUT_SAM="$OUTPUT_DIR/${BASE_NAME}.sam"
